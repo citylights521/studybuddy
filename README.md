@@ -3,7 +3,7 @@
 So much to learn, so little time. Sometimes studying is a little easier and more enjoyable with a buddy. Find your study buddy with the Study Buddy app.
 Study Buddy is an app created to help people interested in various study topics to connect with others interested in the same topics. Users can find those who want to study on the same terms as themselves, as well as can create a favorites page to keep track of their favorite study buddies. 
 
-![The Gibeau Gazette Gif]()
+![The Gibeau Gazette Gif](https://github.com/citylights521/studybuddy/blob/master/public/img/Study%20Buddy.gif?raw=true)
 
 ## How to Use
 When the user loads the Study Buddy app, they must either log in or create an account. Creating an account requires the user to provide their First Name, Last Name, Username, Password, Email, Location, and a user Photo. The site will not allow the user to search for buddies until logged in. The users individual user information is then stored in a User table in MySQL using Sequelize. 
@@ -19,6 +19,7 @@ The user has the ability to log out, as well as to view an About page with furth
 
 ## GitHub Link
 https://github.com/citylights521/studybuddy (forked version)
+
 https://github.com/aprilleperez/studybuddy (original, includes Kanban)
 
 ## Heroku/Deployed Link
