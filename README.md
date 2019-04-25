@@ -3,7 +3,7 @@
 So much to learn, so little time. Sometimes studying is a little easier and more enjoyable with a buddy. Find your study buddy with the Study Buddy app.
 Study Buddy is an app created to help people interested in various study topics to connect with others interested in the same topics. Users can find those who want to study on the same terms as themselves, as well as can create a favorites page to keep track of their favorite study buddies. 
 
-## How to Use:
+## How to Use
 When the user loads the Study Buddy app, they must either log in or create an account. Creating an account requires the user to provide their First Name, Last Name, Username, Password, Email, Location, and a user Photo. The site will not allow the user to search for buddies until logged in. The users individual user information is then stored in a User table in MySQL using Sequelize. 
 
 The user is then prompted to take a survey which captures the users desired Topic, Sub-Topic, if they want to meet Remote or In Person, preferred Meeting Time of day, and then they are presented with the days of the week to individually select which days work best for them. The users survey information is then stored in a Survey table in MySQL. 
@@ -15,7 +15,13 @@ The Matches and Favorites pages are both generated based off of the backend tabl
 
 The user has the ability to log out, as well as to view an About page with further Study Buddy App details. 
 
-## Components Used:
+## GitHub Link
+https://github.com/aprilleperez/studybuddy
+
+## Heroku Link
+https://your-study-buddy.herokuapp.com/
+
+## Components Used
 * JavaScript
 * CSS
 * Bootstrap
@@ -33,13 +39,13 @@ The user has the ability to log out, as well as to view an About page with furth
 * Visual Studio Code
 * MySQL Workbench
 
-## Authors:
+## Authors
 * Michael Albaneze
 * Aprille Perez
 * Will Wilkens
 * Claire Gibeau
 
-## Feedback:
+## Feedback
 This was our groups first time working with many of the components used. We had a learning curve on many of the technologies in making Study Buddy, and working as a group was both helpful (people to talk to when you have questions!) and sometimes not as helpful (merge conflicts on GitHub, we’re looking at you!). Three particularly challenging potions of the project included using Sequlize, Passport, and Cloudinary. Each presented unique challenges. 
 
 Sequlize was a brand new tool for each of us, so integrating it was very thought-provoking as we didn’t have much context or experience. We were tempted to stick with what we knew going into the project (MySQL) but pushed ourselves to use Sequlize. We learned a lot, but a few more days of experience would have been helpful in using this tool. 
@@ -50,9 +56,4 @@ Cloudinary is a SaaS component that was used for capturing user images. It stopp
 Our team did a great job planning this project and understanding what the MVP was. We challenged ourselves to use new tools and supported each other through the learning process resulting in an app we are all proud of; Study Buddy. 
 
 
-## GitHub Link:
-https://github.com/aprilleperez/studybuddy
-
-## Heroku Link: 
-https://your-study-buddy.herokuapp.com/
 
