@@ -3,6 +3,8 @@
 So much to learn, so little time. Sometimes studying is a little easier and more enjoyable with a buddy. Find your study buddy with the Study Buddy app.
 Study Buddy is an app created to help people interested in various study topics to connect with others interested in the same topics. Users can find those who want to study on the same terms as themselves, as well as can create a favorites page to keep track of their favorite study buddies. 
 
+![The Gibeau Gazette Gif]()
+
 ## How to Use
 When the user loads the Study Buddy app, they must either log in or create an account. Creating an account requires the user to provide their First Name, Last Name, Username, Password, Email, Location, and a user Photo. The site will not allow the user to search for buddies until logged in. The users individual user information is then stored in a User table in MySQL using Sequelize. 
 
@@ -16,9 +18,10 @@ The Matches and Favorites pages are both generated based off of the backend tabl
 The user has the ability to log out, as well as to view an About page with further Study Buddy App details. 
 
 ## GitHub Link
-https://github.com/aprilleperez/studybuddy
+https://github.com/citylights521/studybuddy (forked version)
+https://github.com/aprilleperez/studybuddy (original, includes Kanban)
 
-## Heroku Link
+## Heroku/Deployed Link
 https://your-study-buddy.herokuapp.com/
 
 ## Components Used
@@ -46,14 +49,17 @@ https://your-study-buddy.herokuapp.com/
 * Claire Gibeau
 
 ## Feedback
-This was our groups first time working with many of the components used. We had a learning curve on many of the technologies in making Study Buddy, and working as a group was both helpful (people to talk to when you have questions!) and sometimes not as helpful (merge conflicts on GitHub, we’re looking at you!). Three particularly challenging potions of the project included using Sequlize, Passport, and Cloudinary. Each presented unique challenges. 
+This project served as great practice on many of the components used. Passport.js was great for user authentication. Integrating it into the project was a learning experience.
 
-Sequlize was a brand new tool for each of us, so integrating it was very thought-provoking as we didn’t have much context or experience. We were tempted to stick with what we knew going into the project (MySQL) but pushed ourselves to use Sequlize. We learned a lot, but a few more days of experience would have been helpful in using this tool. 
-Passport.js was a great for user authentication. Integrating it into the project was interesting as we hadn’t ever used it before, so we were leaning on our experience from other .js library integrations and the documentation to make it work. User authentication is working, so that’s a win!
+Cloudinary is a SaaS component that was used for capturing user images. It stopped working at one point so we spent a lot of time reviewing the code to see what was wrong, only to learn that it was an issue with our Cloudinary account vs. and issue with our code. 
 
-Cloudinary is a SaaS component that was used for capturing user images. It stopped working at one point so we spent a lot of time reviewing the code to see what was wrong, only to learn that it was an issue with our Cloudinary account vs. and issue with our code. This too is working; win/win!
+Our team did a great job planning this project and understanding what the MVP was. We challenged ourselves to use new tools and supported each other through the learning process resulting in an app we are all proud of. 
 
-Our team did a great job planning this project and understanding what the MVP was. We challenged ourselves to use new tools and supported each other through the learning process resulting in an app we are all proud of; Study Buddy. 
+## TPM
+From a project management perspective, this was a wonderful project to work on as the team was highly engaged and involved from planning through deployment. There was an experienced design team member who was incredibly valuable to the team, and it was great getting to work with them and see how different experience and rolls can contribute. Specifically, they asked a lot of questions about how things would link up on the back-end, which overall helped us to think out our design and to have a better project plan prior to starting coding. It stood out because some people may not believe front-end designers should be speaking so much to the back-end, but her input was valid and very helpful. In other words, don’t pigeon hole people because of their role on a project or their job title. If someone can bring value in any way, embrace it, give them a seat at the table, and listen up! 
+
+We had an extensive planning stage for this project that served us well. We had in depth wireframing, detailed lists of MVP and nice-to-haves, and kept a spec doc going at all times to track thoughts, ideas, and anything relevant to the project that wouldn’t live on the Kanban board. The Kanban was managed via GitHub. We had decent participation on the board from all team members throughout the project (please feel free to check it out https://github.com/aprilleperez/studybuddy/projects/1). We used this space for our a.m. and p.m. stand up task recaps, for logging issues, and as a staging ground for future development. This project went smoothly from beginning to end, truly a dream team!
+	
 
 
 
